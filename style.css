@@ -1,0 +1,169 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", serif;
+	min-width: 960px;
+	font-size: 20px;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid mediumpurple;
+	transition-duration: 0.6s;
+	transition-property: all;
+}
+footer{
+	border: 2px solid royalblue;
+	border-radius: 10px;
+	background-color: #F1CFFD;
+}
+footer a{
+	color: red;
+}
+header{
+display: grid;
+grid-template-areas: "title "
+					"navigation  ";
+gap: 30px;
+padding: 15px;
+margin: 0;
+border: 2px solid indianred;
+background-color:#EDEDF9 ;
+border-radius: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.title{
+	grid-area: title;
+	text-align: center;
+	padding: 10px;	
+}
+.title h1{
+	padding: 30px;
+	font-size: 50px;
+	font-weight: 400;
+	border: 2px solid limegreen;
+	border-radius: 4px;
+	transition-duration: 0.5s;
+	transition-property: all;
+
+}
+.title h1:hover{
+	border: 4px solid #E31A19;
+
+}
+.navigation{
+	display: flex;
+	grid-area: navigation;
+	padding: 10px;
+}
+.navigation .container{
+	align-self: flex-end;
+	min-width: 960px;	
+}
+.nav{
+max-width: 600px;
+display: flex;
+padding: 0;
+margin: 0 auto;
+justify-content: space-between;
+padding: 5px 10px;
+}
+.nav li{list-style-type: none;text-align: center;}
+main{
+ margin: 0;
+ padding-bottom: 20px; 
+
+ 
+}
+.about h1{
+	font-size: 40px;
+	text-align: center;
+}
+.about h1,h2{
+	font-weight: 600;
+}
+.about{
+	margin: 0;
+	padding: 15px;
+}
+.about .container{
+	border-bottom: 2px solid lightgray;
+	padding: 15px;
+	border-top: 2px solid lightgray;
+	border-radius: 1px;
+	padding-bottom: 10px;
+}
+.skills .container{
+	border-bottom: 2px solid lightgray;;
+	border-radius: 1px;
+	padding-bottom: 10px;
+}
+.skills h1{
+	font-size: 40px;
+	text-align: center;
+}
+.perspect .container{
+	border-bottom: 2px solid lightgray;;
+	border-radius: 1px;
+	padding-bottom: 10px;
+}
+.perspect h1{
+	font-size: 40px;
+	text-align: center;
+}
+.works h1{
+	font-size: 40px;
+	text-align: center;
+}
+.img_1{
+	margin: 0 auto;
+}
+.works .container{
+	overflow: hidden;
+	border-bottom: 2px solid lightgray;
+	border-radius: 1px;
+	padding-bottom: 10px;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	padding: 15px 15px 0 15px;
+}
+.contact{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-bottom: 15px;
+}
+.contact .container{
+	padding: 10px;
+	display:flex ;
+	justify-content: space-between;
+}
+.contact p{
+	margin:0  20px;
+}
+.author p::before{
+	content: "©";
+}
+.author{
+	text-align: center;
+	padding:10px 10px 10px 10px; 
+	
+	vertical-align: bottom;
+}
+.author p{
+	margin: 0;
+}
+
+a:hover{
+	border-bottom: 2px solid #E31A19;
+}
